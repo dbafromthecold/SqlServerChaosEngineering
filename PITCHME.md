@@ -23,6 +23,10 @@
 
 ---
 
+### How does it work?
+
+---
+
 ### Past Incident Analysis
 
 ---
@@ -53,9 +57,6 @@
 
 Before you go any further!
 
-RTP and RPO
-Backups / Restores!
-
 ---
 
 ### High availability
@@ -70,6 +71,13 @@ Backups / Restores!
 
 ---
 
+### Staging or Production?
+
+Blast Radius
+Fallout
+
+---
+
 ### Demo
 
 ---
@@ -77,6 +85,10 @@ Backups / Restores!
 ### Chaos Engineering Tools
 
 ---
+
+### Netflix - Chaos Monkey
+
+@quote[Chaos Monkey is responsible for randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures.](netflix.github.io/chaosmonkey/)
 
 ---
 
@@ -89,5 +101,6 @@ Backups / Restores!
 ## Resources
 
 @size[0.8em](https://principlesofchaos.org)<br>
+@size[0.8em](Learning Chaos Engineering - Russ Miles - O'Reilly)<br>
 @size[0.8em](https://github.com/dastergon/awesome-chaos-engineering)<br>
 @size[0.8em](https://github.com/lucky-sideburn/KubeInvaders)
