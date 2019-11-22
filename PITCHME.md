@@ -17,9 +17,73 @@
 
 ---
 
+### What is Chaos Engineering?
+
+@quote[Chaos Engineering is the discipline of experimenting on a system
+in order to build confidence in the system’s capability
+to withstand turbulent conditions in production.](principlesofchaos.org/)
+
+---
+
+### Past Incident Analysis
+
+---
+
+### Define your system
+
+---
+
+### Likehood and Impact
+
+Failure Mode and Effect Analysis
+
+---
+
+### Hypotheses
+
+---
+
+### Applying to SQL Server
+
+---
+
+### Pre-requisities
+
+Before you go any further!
+
+RTP and RPO
+Backups / Restores!
+
+---
+
+### High availability
+
+---
+
+### Diaster Recovery
+
+---
+
+### Defining the first experiment
+
+---
+
+### Demo
+
+---
+
+### Chaos Engineering Tools
+
+---
+
+---
+
+### KubeInvaders
+
+<img src="assets/images/KubeInvaders_75.png" style="float: center"/>
+
 ---
 
 ## Resources
 
-@size[0.8em](http://tinyurl.com/y3x29t3j/summary-of-my-container-series/)
 @size[0.8em](https://github.com/lucky-sideburn/KubeInvaders)
