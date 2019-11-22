@@ -15,6 +15,8 @@
 
 ### Session Aim
 
+To provide an overview of Chaos Engineering and discuss how it can be applied to SQL Server
+
 ---
 
 ### What is Chaos Engineering?
