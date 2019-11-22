@@ -90,6 +90,8 @@ Fallout
 
 ### Netflix - Chaos Monkey
 
+<img src="assets/images/chaosmonkey.png" style="float: right"/>
+
 @quote[Chaos Monkey is responsible for randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures.](netflix.github.io/chaosmonkey/)
 
 ---
