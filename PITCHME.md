@@ -19,9 +19,7 @@
 
 ### What is Chaos Engineering?
 
-@quote[Chaos Engineering is the discipline of experimenting on a system
-in order to build confidence in the system’s capability
-to withstand turbulent conditions in production.](principlesofchaos.org/)
+@quote[Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.](principlesofchaos.org/)
 
 ---
 
@@ -86,4 +84,6 @@ Backups / Restores!
 
 ## Resources
 
+@size[0.8em](https://principlesofchaos.org)
+@size[0.8em](https://github.com/dastergon/awesome-chaos-engineering)
 @size[0.8em](https://github.com/lucky-sideburn/KubeInvaders)
