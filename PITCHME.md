@@ -35,7 +35,7 @@
 
 Failure Mode and Effect Analysis
 
-@quote[Begun in the 1940s by the U.S. military, failure modes and effects analysis (FMEA) is a step-by-step approach for identifying all possible failures in a design, a manufacturing or assembly process, or a product or service. It is a common process analysis tool](asq.org/quality-resources/fmea)
+@quote[Begun in the 1940s by the U.S. military, failure modes and effects analysis (FMEA) is a step-by-step approach for identifying all possible failures in a design, process, product or service](asq.org/quality-resources/fmea)
 
 ---
 
