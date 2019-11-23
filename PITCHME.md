@@ -28,7 +28,7 @@ Tools for Chaos Engineering<br>
 
 ---
 
-## Chaos Engineering
+# Chaos Engineering
 
 ---
 
@@ -56,13 +56,12 @@ Fallout
 #### Scientific Method<br>
 
 @ol[](false)
-1) Observation
-2) Declaration of the end goal or issue
-3) Forming a hypothesis
-4) Testing the hypothesis
-5) Analysis of results
-6) Conclusion
-7) Further research
+1. Observation
+2. Declaration of the end goal or issue
+3. Forming a hypothesis
+4. Testing the hypothesis
+5. Analysis of results
+6. Conclusion
 @olend
 
 ---
@@ -98,6 +97,7 @@ What was learnt from those previous failures?<br>
 ### Defining an experiment
 
 Which failure has the highest failure likelihood and impact?<br>
+Which failure has the highest impact?<br>
 What will you gain from testing that failure?<br>
 Is there anything else that can be tested?<br>
 Experiment can be performed manually or scripted<br>
@@ -114,7 +114,7 @@ Communicate!
 
 ---
 
-## Applying to SQL Server
+# Applying to SQL Server
 
 ---
 
@@ -136,7 +136,7 @@ Before you go any further!
 
 ---
 
-### Demo
+# Demo
 
 ---
 
