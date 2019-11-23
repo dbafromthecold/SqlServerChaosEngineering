@@ -89,7 +89,7 @@ What was learnt from those previous failures?
 
 ### Likelihood-Impact Map
 
-<img src="assets/images/likelihoodImpactMap.png" style="float: center"/>
+<img src="assets/images/likelihoodImpactMap.png" style="align: center"/>
 
 ---
 
