@@ -124,10 +124,9 @@ Communicate!
 
 ---
 
-### Pre-requisities
+### Before you go any further!
 
-Before you go any further!<br>
-<br>
+
 Check your backups!<br>
 What is your restore strategy!<br>
 High availability<br>
