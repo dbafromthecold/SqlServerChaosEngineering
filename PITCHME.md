@@ -38,6 +38,14 @@ Tools for Chaos Engineering<br>
 
 ---
 
+### Netflix - Chaos Monkey
+
+<img src="assets/images/chaosmonkey.png" style="float: right"/>
+
+@quote[Chaos Monkey is responsible for randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures.](netflix.github.io/chaosmonkey/)
+
+---
+
 ### What Chaos Engineering is not!
 
 Breaking things in production!
@@ -121,38 +129,38 @@ Communicate!
 Before you go any further!<br>
 <br>
 Check your backups!<br>
-What is your restore strategy!
-
----
-
-### Existing strategies in place
-
+What is your restore strategy!<br>
 High availability<br>
 Diaster Recovery
 
 ---
 
-### Diaster Recovery
+### What failure are we going to test?
+
+What happens if a node in a Availbility Group cluster fails?
 
 ---
 
-### Defining the first experiment
+### Defining the experiment
 
----
-
-# Demo
+@ul[](false)
+- Steady-state hypothesis
+    - The listener of the availbility group should be online
+- Method
+    - Stop the SQL database engine service on the primary node
+- Rollback
+    - Restart the SQL database engine service on the primary node
+@ulend
 
 ---
 
 ### Chaos Engineering Tools
 
+Chaos Toolkit - https://chaostoolkit.org/
+
 ---
 
-### Netflix - Chaos Monkey
-
-<img src="assets/images/chaosmonkey.png" style="float: right"/>
-
-@quote[Chaos Monkey is responsible for randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures.](netflix.github.io/chaosmonkey/)
+# Demo
 
 ---
 
