@@ -51,9 +51,7 @@ Fallout
 
 ---
 
-### How does it work?
-
-#### Scientific Method<br>
+### Scientific Method<br>
 
 @ol[](false)
 1. Observation
