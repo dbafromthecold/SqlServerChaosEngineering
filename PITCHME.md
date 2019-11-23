@@ -118,11 +118,17 @@ Communicate!
 
 ### Pre-requisities
 
-Before you go any further!
+Before you go any further!<br>
+<br>
+Check your backups!<br>
+What is your restore strategy!
 
 ---
 
-### High availability
+### Existing strategies in place
+
+High availability<br>
+Diaster Recovery
 
 ---
 
