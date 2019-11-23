@@ -21,10 +21,10 @@ To provide an overview of Chaos Engineering and discuss how it can be applied to
 
 ### Agenda
 
-Chaos Engineering Definition
-Apply Chaos Engineering to SQL Server
-Running a Chaos Engineering experiment
-Tools for Chaos Engineering
+Chaos Engineering Definition<br>
+Apply Chaos Engineering to SQL Server<br>
+Running a Chaos Engineering experiment<br>
+Tools for Chaos Engineering<br>
 
 ---
 
@@ -46,15 +46,16 @@ Breaking things in production!
 
 ### Staging or Production?
 
-Blast Radius
+Blast Radius<br>
 Fallout
 
 ---
 
 ### How does it work?
 
-Scientific Method
+#### Scientific Method<br>
 
+@ol[](false)
 1) Observation
 2) Declaration of the end goal or issue
 3) Forming a hypothesis
@@ -62,22 +63,23 @@ Scientific Method
 5) Analysis of results
 6) Conclusion
 7) Further research
+@olend
 
 ---
 
 ### Define your system
 
-Infrastructure
-Applications
-Monitoring
+Infrastructure<br>
+Applications<br>
+Monitoring<br>
 
 ---
 
 ### Past Incident Analysis
 
-How has the system failed previously?
-What technologies/strategies are in place to minimise impact?
-What was learnt from those previous failures?
+How has the system failed previously?<br>
+What technologies/strategies are in place to minimise impact?<br>
+What was learnt from those previous failures?<br>
 
 ---
 
@@ -95,19 +97,19 @@ What was learnt from those previous failures?
 
 ### Defining an experiment
 
-Which failure has the highest failure likelihood and impact?
-What will you gain from testing that failure?
-Is there anything else that can be tested?
-Experiment can be performed manually or scripted
-Organise a time slot to perform the experiment
+Which failure has the highest failure likelihood and impact?<br>
+What will you gain from testing that failure?<br>
+Is there anything else that can be tested?<br>
+Experiment can be performed manually or scripted<br>
+Organise a time slot to perform the experiment<br>
 
 ---
 
 ### Running the experiment
 
-Who needs to be involved?
-Active participants vs Observers
-Have a saftey monitor
+Who needs to be involved?<br>
+Active participants vs Observers<br>
+Have a saftey monitor<br>
 Communicate!
 
 ---
