@@ -19,21 +19,65 @@ To provide an overview of Chaos Engineering and discuss how it can be applied to
 
 ---
 
+### Agenda
+
+Chaos Engineering Definition
+Apply Chaos Engineering to SQL Server
+Running a Chaos Engineering experiment
+Tools for Chaos Engineering
+
+---
+
+## Chaos Engineering
+
+---
+
 ### What is Chaos Engineering?
 
 @quote[Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.](principlesofchaos.org)
 
 ---
 
+### What Chaos Engineering is not!
+
+Breaking things in production!
+
+---
+
+### Staging or Production?
+
+Blast Radius
+Fallout
+
+---
+
 ### How does it work?
+
+Scientific Method
+
+1) Observation
+2) Declaration of the end goal or issue
+3) Forming a hypothesis
+4) Testing the hypothesis
+5) Analysis of results
+6) Conclusion
+7) Further research
+
+---
+
+### Define your system
+
+Infrastructure
+Applications
+Monitoring
 
 ---
 
 ### Past Incident Analysis
 
----
-
-### Define your system
+How has the system failed previously?
+What technologies/strategies are in place to minimise impact?
+What was learnt from those previous failures?
 
 ---
 
@@ -45,13 +89,30 @@ To provide an overview of Chaos Engineering and discuss how it can be applied to
 
 ### Likelihood-Impact Map
 
----
-
-### Hypotheses
+<img src="assets/images/likelihoodImpactMap.png" style="float: center"/>
 
 ---
 
-### Applying to SQL Server
+### Defining an experiment
+
+Which failure has the highest failure likelihood and impact?
+What will you gain from testing that failure?
+Is there anything else that can be tested?
+Experiment can be performed manually or scripted
+Organise a time slot to perform the experiment
+
+---
+
+### Running the experiment
+
+Who needs to be involved?
+Active participants vs Observers
+Have a saftey monitor
+Communicate!
+
+---
+
+## Applying to SQL Server
 
 ---
 
@@ -70,13 +131,6 @@ Before you go any further!
 ---
 
 ### Defining the first experiment
-
----
-
-### Staging or Production?
-
-Blast Radius
-Fallout
 
 ---
 

@@ -1,5 +1,8 @@
 param($Server)
 
+## Add in Pester test
+## Useful for CU updates
+
 Write-Host "Availabilty Group Chaos Experiment"
 
 Write-Host ""
