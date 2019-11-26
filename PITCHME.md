@@ -46,9 +46,6 @@ Tools for Chaos Engineering<br>
 
 ---
 
-
----
-
 ### What Chaos Engineering is not!
 
 Breaking things in production!
