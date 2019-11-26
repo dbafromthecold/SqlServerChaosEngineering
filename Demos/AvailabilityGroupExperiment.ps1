@@ -1,7 +1,6 @@
 param($Server)
 
-## Add in Pester test
-## Useful for CU updates
+$PrimaryServer = "AP-SQLAG-01"
 
 Write-Host "Availabilty Group Chaos Experiment"
 
@@ -16,49 +15,36 @@ Write-Host ""
 Write-Host "Testing steady-state hypotheses - 1st run..."
 Write-Host "Is availability group listener online?"
 
-Write-Host ""
+$Connected = Test-NetConnection -ComputerName $Server -Port 1433
 
-Start-Sleep 2
+Invoke-Pester -Script @{Path = "C:\git\SqlServerChaosEngineering\Demos\PesterTest.ps1"; `
+    Parameters = @{ConfigValue = $Connected.TcpTestSucceeded}} -TestName 'Listener available'
 
-$Connected = Test-Connection -TargetName $Server -TcpPort 15789
+Write-Host "Stopping service on node 1..."
 
-if($Connected -eq $true){
-    Write-Host "Listener is up and running!"
-}
-else{
-    Write-Error "Listener is not up and running!"
-}
+Get-Service -ComputerName $PrimaryServer -Name MSSQLSERVER | Stop-Service -Force
 
 Write-Host ""
-
-Start-Sleep 2
-
-Write-Host "Stopping service on node 1"
-
-#Get-Service -ComputerName $PrimaryServer | Stop-Service
-docker stop testcontainer
-
-Write-Host ""
-
-Start-Sleep 2
-
 Write-Host "Testing steady-state hypotheses - 2nd run..."
 
-$Connected = Test-Connection -TargetName $Server -TcpPort 15789
+$Connected = Test-NetConnection -ComputerName $Server -Port 1433
 
-if($Connected -eq $true){
+Invoke-Pester -Script @{Path = "C:\git\SqlServerChaosEngineering\Demos\PesterTest.ps1"; `
+    Parameters = @{ConfigValue = $Connected.TcpTestSucceeded}} -TestName 'Listener available'
+
+if($Connected.TcpTestSucceeded -eq $true){
+    Write-Host ""
     Write-Host "Listener is up and running!"
     Write-Host ""
 }
 else{
+    Write-Host ""
     Write-Error "Listener is not available!"
     Write-Host ""
     Write-Host "Rolling back chaos experiment..."
-    Write-Host ""
 
     try{
-        #Get-Service -ComputerName $PrimaryServer | Start-Service
-        docker start testcontainer
+        Get-Service -ComputerName $PrimaryServer -Name MSSQLSERVER | Start-Service
         Write-Host "Chaos experiment rolled back successfully!"
     }
     catch{
