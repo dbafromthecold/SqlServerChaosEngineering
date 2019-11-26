@@ -32,17 +32,22 @@ Tools for Chaos Engineering<br>
 
 ---
 
+### Netflix - Chaos Monkey
+
+<img src="assets/images/chaosmonkey.png" style="float: right"/>
+
+---
+
+@quote[Chaos Monkey is responsible for randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures.](netflix.github.io/chaosmonkey/)
+
+---
+
 ### What is Chaos Engineering?
 
 @quote[Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.](principlesofchaos.org)
 
 ---
 
-### Netflix - Chaos Monkey
-
-<img src="assets/images/chaosmonkey.png" style="float: right"/>
-
-@quote[Chaos Monkey is responsible for randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures.](netflix.github.io/chaosmonkey/)
 
 ---
 
