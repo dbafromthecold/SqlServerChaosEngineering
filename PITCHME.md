@@ -48,18 +48,16 @@ Tools for Chaos Engineering<br>
 
 ### What Chaos Engineering is not!
 
-Breaking things in production!
+@ul
+- Breaking things in production!<br>
+- Staging or Production?<br>
+- Blast Radius<br>
+- Fallout
+@ulend
 
 ---
 
-### Staging or Production?
-
-Blast Radius<br>
-Fallout
-
----
-
-### Scientific Method<br>
+### Scientific Method
 
 @ol[](false)
 1. Observation
