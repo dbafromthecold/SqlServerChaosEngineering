@@ -57,19 +57,6 @@ Tools for Chaos Engineering<br>
 
 ---
 
-### Scientific Method
-
-@ol[](false)
-1. Observation
-2. Declaration of the end goal or issue
-3. Forming a hypothesis
-4. Testing the hypothesis
-5. Analysis of results
-6. Conclusion
-@olend
-
----
-
 ### Define your system
 
 Infrastructure<br>
@@ -86,7 +73,7 @@ What was learnt from those previous failures?<br>
 
 ---
 
-### Failure Mode and Effect Analysis (FMEA)
+### Failure Mode and Effect Analysis
 
 @quote[Begun in the 1940s by the U.S. military, failure modes and effects analysis is a step-by-step approach for identifying all possible failures in a design, process, product, or service.](asq.org/quality-resources/fmea)
 
@@ -95,6 +82,19 @@ What was learnt from those previous failures?<br>
 ### Likelihood-Impact Map
 
 <img src="assets/images/likelihoodImpactMap.png" style="align: center"/>
+
+---
+
+### Scientific Method
+
+@ol[](false)
+1. Observation
+2. Declaration of the end goal or issue
+3. Forming a hypothesis
+4. Testing the hypothesis
+5. Analysis of results
+6. Conclusion
+@olend
 
 ---
 
