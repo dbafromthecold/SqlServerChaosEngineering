@@ -145,7 +145,7 @@ Communicate!
 
 ### Defining the experiment
 
-@ul[](false)
+@ul
 - Steady-state hypothesis
     - The listener of the availbility group should be online
 - Method
