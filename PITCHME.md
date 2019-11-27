@@ -126,17 +126,20 @@ Communicate!
 
 ### Before you go any further!
 
-
-Check your backups!<br>
-What is your restore strategy!<br>
-High availability<br>
-Diaster Recovery
+@ul
+- Check your backups!<br>
+- What is your restore strategy?<br>
+- High availability<br>
+- Diaster Recovery
+@ulend
 
 ---
 
 ### What failure are we going to test?
 
-What happens if a node in a Availbility Group cluster fails?
+@ul
+- What happens if a node in a Availbility Group cluster fails?
+@ulend
 
 ---
 
@@ -168,6 +171,10 @@ Chaos Toolkit - https://chaostoolkit.org/
 <img src="assets/images/KubeInvaders_75.png" style="float: center"/>
 
 ---
+
+# Demo
+
+---q    
 
 ## Resources
 
