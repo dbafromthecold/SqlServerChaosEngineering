@@ -57,12 +57,16 @@ Tools for Chaos Engineering<br>
 
 ---
 
-### Define your system
+### Define your systems
 
-Infrastructure<br>
-Applications<br>
-Monitoring<br>
-
+@ul
+- Infrastructure<br>
+    - Cloud, private data centre?
+- Applications<br>
+    - What hitting our SQL instances?
+- Monitoring<br>
+    - How are we going to analyse the results of our experiment?
+@ulend
 ---
 
 ### Past Incident Analysis
