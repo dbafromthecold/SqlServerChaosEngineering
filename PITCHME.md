@@ -28,10 +28,6 @@ Tools for Chaos Engineering<br>
 
 ---
 
-# Chaos Engineering
-
----
-
 ### Netflix - Chaos Monkey
 
 <img src="assets/images/chaosmonkey.png" style="float: right"/>
@@ -54,6 +50,10 @@ Tools for Chaos Engineering<br>
 - Blast Radius<br>
 - Fallout
 @ulend
+
+---
+
+# Getting Started
 
 ---
 
