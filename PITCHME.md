@@ -146,7 +146,7 @@ Communicate!
 ### Defining the experiment
 
 @ul
-- Steady-state hypothesis
+- Hypothesis
     - The listener of the availbility group should be online
 - Method
     - Stop the SQL database engine service on the primary node
