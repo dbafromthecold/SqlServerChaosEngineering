@@ -66,6 +66,8 @@ Tools for Chaos Engineering<br>
     - What's hitting our SQL instances?
 - Monitoring<br>
     - How are we going to analyse the results of our experiments?
+- Social<br>
+    - How do people react to systems going down?
 @ulend
 ---
 
