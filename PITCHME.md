@@ -63,9 +63,9 @@ Tools for Chaos Engineering<br>
 - Infrastructure<br>
     - Cloud, private data centre?
 - Applications<br>
-    - What hitting our SQL instances?
+    - What's hitting our SQL instances?
 - Monitoring<br>
-    - How are we going to analyse the results of our experiment?
+    - How are we going to analyse the results of our experiments?
 @ulend
 ---
 
