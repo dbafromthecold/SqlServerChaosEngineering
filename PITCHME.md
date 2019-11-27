@@ -77,12 +77,6 @@ What was learnt from those previous failures?<br>
 
 ---
 
-### Failure Mode and Effect Analysis
-
-@quote[Begun in the 1940s by the U.S. military, failure modes and effects analysis is a step-by-step approach for identifying all possible failures in a design, process, product, or service.](asq.org/quality-resources/fmea)
-
----
-
 ### Likelihood-Impact Map
 
 <p align="center">
