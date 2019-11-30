@@ -129,7 +129,6 @@ Communicate!
 @ul
 - Check your backups!<br>
 - What is your restore strategy?<br>
-- High availability<br>
 - Diaster Recovery
 @ulend
 
