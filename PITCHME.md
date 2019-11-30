@@ -137,7 +137,7 @@ Communicate!
 ### What failure are we going to test?
 
 @ul
-- What happens if a node in a Availbility Group cluster fails?
+- What happens if the primary node in an Availbility Group cluster fails?
 @ulend
 
 ---
