@@ -87,6 +87,17 @@ What was learnt from those previous failures?<br>
 
 ---
 
+### Defining an experiment
+
+Which failure has the likelihood?<br>
+Which failure has the highest impact?<br>
+What will you gain from testing that failure?<br>
+Is there anything else that can be tested?<br>
+Experiment can be performed manually or scripted<br>
+Organise a time slot to perform the experiment<br>
+
+---
+
 ### Scientific Method
 
 @ol[](false)
@@ -97,17 +108,6 @@ What was learnt from those previous failures?<br>
 5. Analysis of results
 6. Conclusion
 @olend
-
----
-
-### Defining an experiment
-
-Which failure has the likelihood?<br>
-Which failure has the highest impact?<br>
-What will you gain from testing that failure?<br>
-Is there anything else that can be tested?<br>
-Experiment can be performed manually or scripted<br>
-Organise a time slot to perform the experiment<br>
 
 ---
 
