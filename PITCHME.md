@@ -155,12 +155,6 @@ Communicate!
 
 ---
 
-### Chaos Engineering Tools
-
-
-
----
-
 # Demo
 
 ---
