@@ -146,7 +146,7 @@ Communicate!
 
 @ul
 - Hypothesis
-    - The listener of the availbility group should be online
+    - The listener of the availbility group should remain online
 - Method
     - Stop the SQL database engine service on the primary node
 - Rollback
