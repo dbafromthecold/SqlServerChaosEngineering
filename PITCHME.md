@@ -89,7 +89,7 @@ What was learnt from those previous failures?<br>
 
 ### Defining an experiment
 
-Which failure has the likelihood?<br>
+Which failure has the highest likelihood?<br>
 Which failure has the highest impact?<br>
 What will you gain from testing that failure?<br>
 Is there anything else that can be tested?<br>
