@@ -1,6 +1,9 @@
 param($Server)
 
-$PrimaryServer = "AP-SQLAG-01"
+Import-Module dbatools
+
+$AG = Get-DbaAvailabilityGroup -SqlInstance $Server
+$Listener = $AG.AvailabilityGroupListeners.Name
 
 Write-Host "Availabilty Group Chaos Experiment"
 
@@ -12,22 +15,31 @@ Write-Host "Description: Will listener remain online?"
 
 Write-Host ""
 
-Write-Host "Testing steady-state hypotheses - 1st run..."
-Write-Host "Is availability group listener online?"
+Write-Host "Checking Availability Group before running experiment..."
+Write-Host "Is the availability group listener online?"
 
-$Connected = Test-NetConnection -ComputerName $Server -Port 1433
+Start-Sleep -Seconds 5
+
+$Connected = Test-NetConnection -ComputerName $Listener -Port 1433
 
 Invoke-Pester -Script @{Path = "C:\git\SqlServerChaosEngineering\Demos\PesterTest.ps1"; `
     Parameters = @{ConfigValue = $Connected.TcpTestSucceeded}} -TestName 'Listener available'
 
-Write-Host "Stopping service on node 1..."
+Write-Host ""
+Write-Host ""
+Write-Host ""
+Write-Host ""
+Write-Host "Stopping service on primary node..."
 
-Get-Service -ComputerName $PrimaryServer -Name MSSQLSERVER | Stop-Service -Force
+Get-Service -ComputerName $Server -Name MSSQLSERVER | Stop-Service -Force
 
 Write-Host ""
-Write-Host "Testing steady-state hypotheses - 2nd run..."
+Write-Host ""
+Write-Host ""
+Write-Host ""
+Write-Host "Testing hypothesis - Is the listener online?"
 
-$Connected = Test-NetConnection -ComputerName $Server -Port 1433
+$Connected = Test-NetConnection -ComputerName $Listener -Port 1433
 
 Invoke-Pester -Script @{Path = "C:\git\SqlServerChaosEngineering\Demos\PesterTest.ps1"; `
     Parameters = @{ConfigValue = $Connected.TcpTestSucceeded}} -TestName 'Listener available'
@@ -44,7 +56,7 @@ else{
     Write-Host "Rolling back chaos experiment..."
 
     try{
-        Get-Service -ComputerName $PrimaryServer -Name MSSQLSERVER | Start-Service
+        Get-Service -ComputerName $Server -Name MSSQLSERVER | Start-Service
         Write-Host "Chaos experiment rolled back successfully!"
     }
     catch{
