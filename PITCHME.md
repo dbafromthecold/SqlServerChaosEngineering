@@ -167,9 +167,9 @@ DBA Tools
 
 ---
 
-### Experiment Number Two
+# Experiment Number Two
 
-SQL Server running on Kubernetes
+## SQL Server running on Kubernetes
 
 ---
 
