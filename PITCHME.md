@@ -155,7 +155,21 @@ Communicate!
 
 ---
 
+### Tools
+
+Powershell<br>
+Pester<br>
+DBA Tools
+
+---
+
 # Demo
+
+---
+
+### Experiment Number Two
+
+SQL Server running on Kubernetes
 
 ---
 
