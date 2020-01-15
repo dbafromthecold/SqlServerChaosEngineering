@@ -34,7 +34,7 @@ Testing SQL Server on Kubernetes<br>
 ### Past Incident Analysis
 
 How has the system failed previously?<br>
-What technologies/strategies are in place to minimise impact?<br>
+What technologies/strategies are now in place?<br>
 What was learnt from those previous failures?<br>
 
 ---
@@ -77,14 +77,6 @@ Is there anything else that can be tested?
 - Rollback
     - Restart the SQL database engine service on the primary node
 @ulend
-
----
-
-### Tools
-
-Powershell<br>
-Pester<br>
-DBA Tools
 
 ---
 
