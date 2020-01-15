@@ -15,60 +15,20 @@
 
 ### Session Aim
 
-To provide an overview of Chaos Engineering and discuss how it can be applied to SQL Server
+How can Chaos Engineering be applied to SQL Server?
 
 ---
 
 ### Agenda
 
-Chaos Engineering Definition<br>
-Apply Chaos Engineering to SQL Server<br>
+Identifying SQL Server weaknesses<br>
 Running a Chaos Engineering experiment<br>
-Tools for Chaos Engineering<br>
+Testing SQL Server on Kubernetes<br>
 
 ---
 
-### Netflix - Chaos Monkey
+# Identifying weaknesses
 
-<img src="assets/images/chaosmonkey.png" style="float: right"/>
-
-@quote[Chaos Monkey is responsible for randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures.](netflix.github.io/chaosmonkey/)
-
----
-
-### What is Chaos Engineering?
-
-@quote[Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production.](principlesofchaos.org)
-
----
-
-### What Chaos Engineering is not!
-
-@ul
-- Breaking things in production!<br>
-- Staging or Production?<br>
-- Blast Radius<br>
-- Fallout
-@ulend
-
----
-
-# Getting Started
-
----
-
-### Define your systems
-
-@ul
-- Infrastructure<br>
-    - Cloud, private data centre?
-- Applications<br>
-    - What's hitting our SQL instances?
-- Monitoring<br>
-    - How are we going to analyse the results of our experiments?
-- Social<br>
-    - How do people react to systems going down?
-@ulend
 ---
 
 ### Past Incident Analysis
@@ -92,45 +52,10 @@ What was learnt from those previous failures?<br>
 Which failure has the highest likelihood?<br>
 Which failure has the highest impact?<br>
 What will you gain from testing that failure?<br>
-Is there anything else that can be tested?<br>
-Experiment can be performed manually or scripted<br>
-Organise a time slot to perform the experiment<br>
-
+Is there anything else that can be tested?
 ---
 
-### Scientific Method
-
-@ol[](false)
-1. Observation
-2. Declaration of the end goal or issue
-3. Forming a hypothesis
-4. Testing the hypothesis
-5. Analysis of results
-6. Conclusion
-@olend
-
----
-
-### Running the experiment
-
-Who needs to be involved?<br>
-Active participants vs Observers<br>
-Have a saftey monitor<br>
-Communicate!
-
----
-
-# Applying to SQL Server
-
----
-
-### Before you go any further!
-
-@ul
-- Check your backups!<br>
-- What is your restore strategy?<br>
-- Diaster Recovery
-@ulend
+# Running an experiment
 
 ---
 
@@ -167,9 +92,7 @@ DBA Tools
 
 ---
 
-# Experiment Two
-
-## SQL Server running on Kubernetes
+# SQL Server running on Kubernetes
 
 ---
 
