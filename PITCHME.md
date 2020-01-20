@@ -99,6 +99,4 @@ Is there anything else that can be tested?
 @size[0.8em](https://github.com/dbafromthecold/SqlServerChaosEngineering)<br>
 @size[0.8em](https://github.com/lucky-sideburn/KubeInvaders)
 
-@snap[east]
 ![QR](assets/images/ChaosEngineeringQrCode.png)
-@snapend
