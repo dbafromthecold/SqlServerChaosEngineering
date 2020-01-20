@@ -1,0 +1,59 @@
+
+
+
+kubectl config use-context docker-desktop
+
+
+kubectl get nodes
+
+
+kubectl run sqlserver `
+--image=mcr.microsoft.com/mssql/server:2019-GDR1-ubuntu-16.04 `
+--env ACCEPT_EULA=Y --env SA_PASSWORD=Testing1122
+
+kubectl expose deployment sqlserver --type=LoadBalancer --port=1433 --target-port=1433
+
+
+kubectl get deployments
+
+
+kubectl get pods
+
+
+kubectl get service
+
+
+kubectl get pods -o wide
+
+
+$PODNAME=$(kubectl get pods --no-headers -o custom-columns=":metadata.name")
+kubectl delete pod $PODNAME
+
+
+kubectl get pods -o wide
+
+
+kubectl get service
+
+
+kubectl delete deployment sqlserver
+
+kubectl delete service sqlserver
+
+
+kubectl config use-context SQLK8sCluster2
+
+
+kubectl run sqlserver `
+--image=mcr.microsoft.com/mssql/server:2019-GDR1-ubuntu-16.04 `
+--replicas 10 `
+--env ACCEPT_EULA=Y --env SA_PASSWORD=Testing1122 `
+--namespace foobar
+
+
+kubectl get pods -o wide -n foobar
+
+kubectl get pods -n foobar --watch
+
+
+kubectl delete deployment sqlserver -n foobar
