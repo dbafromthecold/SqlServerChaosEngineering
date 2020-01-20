@@ -1,59 +1,89 @@
 
 
+# switch context to local cluster
+kubectl config use-context microk8s
 
-kubectl config use-context docker-desktop
 
 
+# confirm connection to local cluster
 kubectl get nodes
 
 
-kubectl run sqlserver `
---image=mcr.microsoft.com/mssql/server:2019-GDR1-ubuntu-16.04 `
+
+# deploy one pod running SQL Server and expose
+kubectl run sqlserver \
+--image=mcr.microsoft.com/mssql/server:2019-RC1 \
 --env ACCEPT_EULA=Y --env SA_PASSWORD=Testing1122
 
-kubectl expose deployment sqlserver --type=LoadBalancer --port=1433 --target-port=1433
+kubectl expose deployment sqlserver --type=ClusterIP --port=1433 --target-port=1433
 
 
-kubectl get deployments
+
+# view deployment, pod, and service
+kubectl get deployments && kubectl get pods && kubectl get service
 
 
-kubectl get pods
+
+# confirm SQL Server version
+SqlIP=$(kubectl get service sqlserver --no-headers -o custom-columns=":spec.clusterIP")
+mssql-cli -S $SqlIP -U sa -P Testing1122 -Q "SELECT @@VERSION"
 
 
-kubectl get service
 
-
+# view pod IP address
 kubectl get pods -o wide
 
 
-$PODNAME=$(kubectl get pods --no-headers -o custom-columns=":metadata.name")
+
+# delete pod
+PODNAME=$(kubectl get pods --no-headers -o custom-columns=":metadata.name")
 kubectl delete pod $PODNAME
 
 
+
+# view new pod
 kubectl get pods -o wide
 
 
+
+# view service
 kubectl get service
 
 
-kubectl delete deployment sqlserver
 
-kubectl delete service sqlserver
+# run query again
+mssql-cli -S $SqlIP -U sa -P Testing1122 -Q "SELECT @@VERSION"
 
 
+
+# clean up locally
+kubectl delete deployment sqlserver && kubectl delete service sqlserver
+
+
+
+# switch to AKS cluster
 kubectl config use-context SQLK8sCluster2
 
 
-kubectl run sqlserver `
---image=mcr.microsoft.com/mssql/server:2019-GDR1-ubuntu-16.04 `
---replicas 10 `
---env ACCEPT_EULA=Y --env SA_PASSWORD=Testing1122 `
+
+# deploy 10 pods running SQL Server
+kubectl run sqlserver \
+--image=mcr.microsoft.com/mssql/server:2019-GDR1-ubuntu-16.04 \
+--replicas 10 \
+--env ACCEPT_EULA=Y --env SA_PASSWORD=Testing1122 \
 --namespace foobar
 
 
+
+# view pods
 kubectl get pods -o wide -n foobar
 
+
+
+# watch pods
 kubectl get pods -n foobar --watch
 
 
+
+# clean up
 kubectl delete deployment sqlserver -n foobar
