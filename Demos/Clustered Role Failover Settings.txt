@@ -1,0 +1,1 @@
+Get-ClusterGroup -Cluster AP-SQLAG-01 | Select-Object Cluster,Name,FailoverPeriod,FailoverThreshold,GroupType

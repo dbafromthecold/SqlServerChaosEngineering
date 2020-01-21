@@ -18,11 +18,11 @@ Write-Host ""
 Write-Host "Checking Availability Group before running experiment..."
 Write-Host "Is the availability group listener online?"
 
-Start-Sleep -Seconds 5
+Start-Sleep -Seconds 1
 
 $Connected = Test-NetConnection -ComputerName $Listener -Port 1433
 
-Invoke-Pester -Script @{Path = "C:\git\SqlServerChaosEngineering\Demos\PesterTest.ps1"; `
+Invoke-Pester -Script @{Path = "C:\git\SqlServerChaosEngineering\Demos\AvailabilityGroup\PesterTest.ps1"; `
     Parameters = @{ConfigValue = $Connected.TcpTestSucceeded}} -TestName 'Listener available'
 
 Write-Host ""
@@ -41,7 +41,7 @@ Write-Host "Testing hypothesis - Is the listener online?"
 
 $Connected = Test-NetConnection -ComputerName $Listener -Port 1433
 
-Invoke-Pester -Script @{Path = "C:\git\SqlServerChaosEngineering\Demos\PesterTest.ps1"; `
+Invoke-Pester -Script @{Path = "C:\git\SqlServerChaosEngineering\Demos\AvailabilityGroup\PesterTest.ps1"; `
     Parameters = @{ConfigValue = $Connected.TcpTestSucceeded}} -TestName 'Listener available'
 
 if($Connected.TcpTestSucceeded -eq $true){
