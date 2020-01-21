@@ -1,5 +1,5 @@
 # Chaos Engineering for SQL Server
-
+ 
 ---
 
 ## Andrew Pruski
