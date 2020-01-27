@@ -1,9 +1,10 @@
-param($Server)
+param($Server,$AvailabilityGroup)
 
-Import-Module dbatools
-
-$AG = Get-DbaAvailabilityGroup -SqlInstance $Server
-$Listener = $AG.AvailabilityGroupListeners.Name
+$SqlGetListener = "SELECT dns_name, port
+FROM sys.availability_group_listeners AS l
+INNER JOIN sys.availability_groups AS a ON l.group_id = a.group_id
+WHERE a.name = '$AvailabilityGroup'"
+$Listener = Invoke-SqlCmd -ServerInstance $Server -Database master -Query $SqlGetListener
 
 Write-Host "Availabilty Group Chaos Experiment"
 
@@ -20,7 +21,7 @@ Write-Host "Is the availability group listener online?"
 
 Start-Sleep -Seconds 1
 
-$Connected = Test-NetConnection -ComputerName $Listener -Port 1433
+$Connected = Test-NetConnection -ComputerName $Listener.dns_name -Port $Listener.port
 
 Invoke-Pester -Script @{Path = "C:\git\SqlServerChaosEngineering\Demos\AvailabilityGroup\PesterTest.ps1"; `
     Parameters = @{ConfigValue = $Connected.TcpTestSucceeded}} -TestName 'Listener available'
@@ -39,7 +40,7 @@ Write-Host ""
 Write-Host ""
 Write-Host "Testing hypothesis - Is the listener online?"
 
-$Connected = Test-NetConnection -ComputerName $Listener -Port 1433
+$Connected = Test-NetConnection -ComputerName $Listener.dns_name -Port $Listener.port
 
 Invoke-Pester -Script @{Path = "C:\git\SqlServerChaosEngineering\Demos\AvailabilityGroup\PesterTest.ps1"; `
     Parameters = @{ConfigValue = $Connected.TcpTestSucceeded}} -TestName 'Listener available'
