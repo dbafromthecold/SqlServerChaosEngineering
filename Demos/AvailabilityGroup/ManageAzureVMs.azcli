@@ -1,0 +1,25 @@
+
+
+# log into azure
+az login
+
+
+
+# start VMs
+az vm start --resource-group apavailability01 --name AP-DC-02
+az vm start --resource-group apavailability01 --name AP-AG-Jump01
+az vm start --resource-group apavailability01 --name AP-SQLAG-01
+az vm start --resource-group apavailability01 --name AP-SQLAG-02
+
+
+
+# stop VMs
+az vm stop --resource-group apavailability01 --name AP-DC-02
+az vm stop --resource-group apavailability01 --name AP-AG-Jump01
+az vm stop --resource-group apavailability01 --name AP-SQLAG-01
+az vm stop --resource-group apavailability01 --name AP-SQLAG-02
+
+az vm deallocate --resource-group apavailability01 --name AP-DC-02
+az vm deallocate --resource-group apavailability01 --name AP-AG-Jump01
+az vm deallocate --resource-group apavailability01 --name AP-SQLAG-01
+az vm deallocate --resource-group apavailability01 --name AP-SQLAG-02
