@@ -129,7 +129,7 @@ Communicate!
 @ul
 - Check your backups!<br>
 - What is your restore strategy?<br>
-- Diaster Recovery
+- Disaster Recovery
 @ulend
 
 ---
@@ -157,9 +157,17 @@ Communicate!
 
 ### Tools
 
+@ul
 Powershell<br>
 Pester<br>
 DBA Tools
+@ulend
+
+---
+
+### Chaos Toolkit
+
+<img src="assets/images/chaos_toolkit.png"/>
 
 ---
 
