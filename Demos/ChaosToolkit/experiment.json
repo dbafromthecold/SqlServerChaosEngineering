@@ -69,7 +69,7 @@
                 "type": "process",
                 "path": "powershell",
                 "arguments": [
-                    "C:\\git\\SqlServerChaosEngineering\\Demos\\ChaosToolkitstart_sqlserver_service.ps1",
+                    "C:\\git\\SqlServerChaosEngineering\\Demos\\ChaosToolkit\\start_sqlserver_service.ps1",
                     "-Server ${server}"
                 ]
             }
