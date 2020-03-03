@@ -12,7 +12,7 @@ kubectl get nodes
 
 # deploy one pod running SQL Server and expose
 kubectl run sqlserver \
---image=mcr.microsoft.com/mssql/server:2019-RC1 \
+--image=mcr.microsoft.com/mssql/server:2019-CU2-ubuntu-16.04 \
 --env ACCEPT_EULA=Y --env SA_PASSWORD=Testing1122
 
 kubectl expose deployment sqlserver --type=ClusterIP --port=1433 --target-port=1433
@@ -68,7 +68,7 @@ kubectl config use-context SQLK8sCluster2
 
 # deploy 10 pods running SQL Server
 kubectl run sqlserver \
---image=mcr.microsoft.com/mssql/server:2019-GDR1-ubuntu-16.04 \
+--image=mcr.microsoft.com/mssql/server:2019-CU2-ubuntu-16.04 \
 --replicas 10 \
 --env ACCEPT_EULA=Y --env SA_PASSWORD=Testing1122 \
 --namespace foobar

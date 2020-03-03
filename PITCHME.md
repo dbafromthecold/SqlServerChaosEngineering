@@ -202,7 +202,7 @@ https://chaostoolkit.org/
 ## Resources
 
 @size[0.8em](https://principlesofchaos.org)<br>
-@size[0.8em](Learning Chaos Engineering - Russ Miles - O'Reilly)<br>
+@size[0.8em](https://github.com/dbafromthecold/SqlServerChaosEngineering)<br>
 @size[0.8em](https://chaostoolkit.org/)<br>
 @size[0.8em](https://github.com/dastergon/awesome-chaos-engineering)<br>
 @size[0.8em](https://github.com/lucky-sideburn/KubeInvaders)
