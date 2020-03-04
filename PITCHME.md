@@ -202,5 +202,5 @@ https://chaostoolkit.org/
 ## Feedback
 
 <p align="center">
-<img src="/assets/images/sqlkonferenz_feedback_qr.png">
+<img src="/assets/images/sqlkonferenz_qr.png">
 </p>
