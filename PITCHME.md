@@ -155,16 +155,6 @@ Communicate!
 
 ---
 
-### Tools
-
-@ul
-Powershell<br>
-Pester<br>
-DBA Tools
-@ulend
-
----
-
 ### Chaos Toolkit
 
 <p align="center">
