@@ -196,3 +196,11 @@ https://chaostoolkit.org/
 @size[0.8em](https://chaostoolkit.org/)<br>
 @size[0.8em](https://github.com/dastergon/awesome-chaos-engineering)<br>
 @size[0.8em](https://github.com/lucky-sideburn/KubeInvaders)
+
+---
+
+## Feedback
+
+<p align="center">
+<img src="/assets/images/sqlkonferenz_feedback_qr.png">
+</p>
