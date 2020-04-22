@@ -5,6 +5,8 @@
 ## Andrew Pruski
 
 ### SQL Server DBA & Microsoft Data Platform MVP
+<br>
+## Organiser of EightKB
 
 @fa[twitter] @dbafromthecold <br>
 @fa[envelope] dbafromthecold@gmail.com <br>
@@ -192,8 +194,6 @@ https://chaostoolkit.org/
 
 ---
 
-## Feedback
+## EightKB
 
-<p align="center">
-<img src="/assets/images/sqlkonferenz_qr.png">
-</p>
+https://eightkb.online/
