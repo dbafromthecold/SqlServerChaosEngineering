@@ -6,7 +6,7 @@
 
 ### SQL Server DBA & Microsoft Data Platform MVP
 <br>
-## Organiser of EightKB
+#### Organiser of EightKB
 
 @fa[twitter] @dbafromthecold <br>
 @fa[envelope] dbafromthecold@gmail.com <br>
@@ -195,5 +195,7 @@ https://chaostoolkit.org/
 ---
 
 ## EightKB
+
+<img src="assets/images/eightkb.png"/>
 
 https://eightkb.online/
