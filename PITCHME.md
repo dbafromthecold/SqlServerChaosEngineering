@@ -98,25 +98,18 @@ Organise a time slot to perform the experiment<br>
 
 ---
 
-### Scientific Method
+### Potential scenarios to test!
 
-@ol[](false)
-1. Observation
-2. Declaration of the end goal or issue
-3. Forming a hypothesis
-4. Testing the hypothesis
-5. Analysis of results
-6. Conclusion
-@olend
-
----
-
-### Running the experiment
-
-Who needs to be involved?<br>
-Active participants vs Observers<br>
-Have a saftey monitor<br>
-Communicate!
+@ul
+- High Availability<br>
+    - How will the primary node fail?
+- Backups!<br>
+    - Testing our restores
+- Monitoring<br>
+    - When were we alerted?
+- Diaster Recovery<br>
+    - When did we last test our DR strategy?
+@ulend
 
 ---
 
