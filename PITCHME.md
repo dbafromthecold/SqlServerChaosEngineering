@@ -99,7 +99,7 @@ What was learnt from those previous failures?<br>
     - When were we alerted?
 - User error<br>
     - Running an UPDATE statement without a WHERE clause
-- Diaster Recovery<br>
+- Disaster Recovery<br>
     - When did we last test our DR strategy?
 @ulend
 
