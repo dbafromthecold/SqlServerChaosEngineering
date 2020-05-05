@@ -1,10 +1,11 @@
 # Chaos Engineering for SQL Server
- 
+
 ---
 
 ## Andrew Pruski
 
 ### SQL Server DBA & Microsoft Data Platform MVP
+### Organiser of EightKB
 
 @fa[twitter] @dbafromthecold <br>
 @fa[envelope] dbafromthecold@gmail.com <br>
@@ -15,7 +16,16 @@
 
 ### Session Aim
 
-How can Chaos Engineering be applied to SQL Server?
+To provide an overview of Chaos Engineering and discuss how it can be applied to SQL Server
+
+---
+
+### Agenda
+
+Chaos Engineering Definition<br>
+Apply Chaos Engineering to SQL Server<br>
+Running a Chaos Engineering experiment<br>
+Tools for Chaos Engineering<br>
 
 ---
 
@@ -38,14 +48,34 @@ How can Chaos Engineering be applied to SQL Server?
 @ul
 - Breaking things in production!<br>
 - Staging or Production?<br>
+- Blast Radius<br>
+- Fallout
 @ulend
 
+---
+
+# Getting Started
+
+---
+
+### Define your systems
+
+@ul
+- Infrastructure<br>
+    - Cloud, private data centre?
+- Applications<br>
+    - What's hitting our SQL instances?
+- Monitoring<br>
+    - How are we going to analyse the results of our experiments?
+- Social<br>
+    - How do people react to systems going down?
+@ulend
 ---
 
 ### Past Incident Analysis
 
 How has the system failed previously?<br>
-What technologies/strategies are now in place?<br>
+What technologies/strategies are in place to minimise impact?<br>
 What was learnt from those previous failures?<br>
 
 ---
@@ -80,7 +110,21 @@ What was learnt from those previous failures?<br>
 Which failure has the highest likelihood?<br>
 Which failure has the highest impact?<br>
 What will you gain from testing that failure?<br>
-Is there anything else that can be tested?
+Is there anything else that can be tested?<br>
+
+---
+
+# Applying to SQL Server
+
+---
+
+### Before you go any further!
+
+@ul
+- Check your backups!<br>
+- What is your restore strategy?<br>
+- Disaster Recovery
+@ulend
 
 ---
 
@@ -105,7 +149,21 @@ Is there anything else that can be tested?
 
 ---
 
+### Chaos Toolkit
+
+<p align="center">
+<img src="assets/images/chaos_toolkit.png"/>
+</p>
+
+https://chaostoolkit.org/
+
+---
+
 # Demo
+
+---
+
+# Experiment Two
 
 ---
 
@@ -140,4 +198,3 @@ Is there anything else that can be tested?
 <img src="assets/images/eightkb_website.png"/>
 
 https://eightkb.online/
-
