@@ -1,7 +1,7 @@
 
 
 # switch context to local cluster
-kubectl config use-context microk8s
+kubectl config use-context docker-desktop
 
 
 
@@ -11,16 +11,18 @@ kubectl get nodes
 
 
 # deploy one pod running SQL Server and expose
-kubectl run sqlserver \
---image=mcr.microsoft.com/mssql/server:2019-CU2-ubuntu-16.04 \
+kubectl run sqlserver `
+--image=mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04 `
 --env ACCEPT_EULA=Y --env SA_PASSWORD=Testing1122
 
-kubectl expose deployment sqlserver --type=ClusterIP --port=1433 --target-port=1433
+kubectl expose deployment sqlserver --type=LoadBalancer --port=1433 --target-port=1433
 
 
 
 # view deployment, pod, and service
-kubectl get deployments && kubectl get pods && kubectl get service
+kubectl get deployments
+kubectl get pods
+kubectl get service
 
 
 
@@ -57,20 +59,21 @@ mssql-cli -S $SqlIP -U sa -P Testing1122 -Q "SELECT @@VERSION"
 
 
 # clean up locally
-kubectl delete deployment sqlserver && kubectl delete service sqlserver
+kubectl delete deployment sqlserver
+kubectl delete service sqlserver
 
 
 
 # switch to AKS cluster
-kubectl config use-context SQLK8sCluster2
+kubectl config use-context SQLK8sCluster1
 
 
 
 # deploy 10 pods running SQL Server
-kubectl run sqlserver \
---image=mcr.microsoft.com/mssql/server:2019-CU2-ubuntu-16.04 \
---replicas 10 \
---env ACCEPT_EULA=Y --env SA_PASSWORD=Testing1122 \
+kubectl run sqlserver `
+--image=mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04 `
+--replicas 10 `
+--env ACCEPT_EULA=Y --env SA_PASSWORD=Testing1122 `
 --namespace foobar
 
 

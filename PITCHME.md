@@ -42,6 +42,25 @@ How can Chaos Engineering be applied to SQL Server?
 
 ---
 
+# Getting Started
+
+---
+
+### Define your systems
+
+@ul
+- Infrastructure<br>
+    - Cloud, private data centre?
+- Applications<br>
+    - What's hitting our SQL instances?
+- Monitoring<br>
+    - How are we going to analyse the results of our experiments?
+- Social<br>
+    - How do people react to systems going down?
+@ulend
+
+---
+
 ### Past Incident Analysis
 
 How has the system failed previously?<br>
@@ -84,6 +103,10 @@ Is there anything else that can be tested?
 
 ---
 
+# Running an experiment
+
+---
+
 ### What failure are we going to test?
 
 @ul
@@ -109,9 +132,17 @@ Is there anything else that can be tested?
 
 ---
 
-### SQL Server running on Kubernetes
+# SQL Server running on Kubernetes
+
+---
+
+### What is Kubernetes?
 
 @quote[Kubernetes is a portable, extensible open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available](kubernetes.io)
+
+---
+
+# Demo
 
 ---
 
