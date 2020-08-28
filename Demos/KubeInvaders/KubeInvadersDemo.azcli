@@ -70,11 +70,7 @@ kubectl config use-context SQLK8sCluster1
 
 
 # deploy 10 pods running SQL Server
-kubectl run sqlserver `
---image=mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04 `
---replicas 10 `
---env ACCEPT_EULA=Y --env SA_PASSWORD=Testing1122 `
---namespace foobar
+kubectl apply -f sqlserver.yaml -n foobar
 
 
 
