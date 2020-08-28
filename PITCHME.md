@@ -50,7 +50,7 @@ How can Chaos Engineering be applied to SQL Server?
 
 ---
 
-### Whate are we going to test?
+### What are we going to test?
 
 @ul
 - Infrastructure<br>
