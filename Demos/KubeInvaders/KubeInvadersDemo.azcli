@@ -1,5 +1,10 @@
 
 
+# set location
+cd C:\git\SqlServerChaosEngineering\Demos\KubeInvaders
+
+
+
 # switch context to local cluster
 kubectl config use-context docker-desktop
 
@@ -11,24 +16,19 @@ kubectl get nodes
 
 
 # deploy one pod running SQL Server and expose
-kubectl run sqlserver `
---image=mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04 `
---env ACCEPT_EULA=Y --env SA_PASSWORD=Testing1122
-
-kubectl expose deployment sqlserver --type=LoadBalancer --port=1433 --target-port=1433
+kubectl apply -f sqlserver-local.yaml
 
 
 
 # view deployment, pod, and service
-kubectl get deployments
+kubectl get deployment
 kubectl get pods
 kubectl get service
 
 
 
 # confirm SQL Server version
-SqlIP=$(kubectl get service sqlserver --no-headers -o custom-columns=":spec.clusterIP")
-mssql-cli -S $SqlIP -U sa -P Testing1122 -Q "SELECT @@VERSION"
+mssql-cli -S localhost -U sa -P Testing1122 -Q "SELECT @@VERSION AS [Version];"
 
 
 
@@ -38,7 +38,7 @@ kubectl get pods -o wide
 
 
 # delete pod
-PODNAME=$(kubectl get pods --no-headers -o custom-columns=":metadata.name")
+$PODNAME=$(kubectl get pods --no-headers -o custom-columns=":metadata.name")
 kubectl delete pod $PODNAME
 
 
@@ -54,7 +54,7 @@ kubectl get service
 
 
 # run query again
-mssql-cli -S $SqlIP -U sa -P Testing1122 -Q "SELECT @@VERSION"
+mssql-cli -S localhost -U sa -P Testing1122 -Q "SELECT @@VERSION"
 
 
 
@@ -70,7 +70,7 @@ kubectl config use-context SQLK8sCluster1
 
 
 # deploy 10 pods running SQL Server
-kubectl apply -f sqlserver.yaml -n foobar
+kubectl apply -f sqlserver-kubeinvaders.yaml -n foobar
 
 
 
