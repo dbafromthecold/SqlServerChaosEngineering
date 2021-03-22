@@ -58,7 +58,7 @@ How can Chaos Engineering be applied to SQL Server?
 <ul>
 <li class="fragment">Infrastructure</li>
     <ul>
-        <li class="fragment">Cloud, private data centre?/li>
+        <li class="fragment">Cloud, private data centre?</li>
     </ul>
 <li class="fragment">Applications</li>
     <ul>
@@ -97,7 +97,7 @@ What was learnt from those previous failures?<br>
 <ul>
 <li class="fragment">High Availability</li>
     <ul>
-        <li class="fragment">How will the primary node fail?/li>
+        <li class="fragment">How will the primary node fail?</li>
     </ul>
 <li class="fragment">Backups!</li>
     <ul>
