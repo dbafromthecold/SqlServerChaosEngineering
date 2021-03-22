@@ -84,16 +84,16 @@ What was learnt from those previous failures?<br>
 
 ### Potential scenarios to test!
 <!-- .slide: style="text-align: left;"> -->
-- High Availability<br>
-    - How will the primary node fail?
-- Backups!<br>
-    - Testing our restores
-- Monitoring<br>
-    - When were we alerted?
-- User error<br>
-    - Running an UPDATE statement without WHERE
-- Disaster Recovery<br>
-    - When did we last test our DR strategy?
+<p class="fragment">- High Availability<br>
+    - How will the primary node fail?</p>
+<p class="fragment">- Backups!<br>
+    - Testing our restores</p>
+<p class="fragment">- Monitoring<br>
+    - When were we alerted?</p>
+<p class="fragment">- User error<br>
+    - Running an UPDATE statement without WHERE</p>
+<p class="fragment">- Disaster Recovery<br>
+    - When did we last test our DR strategy?</p>
 
 ---
 
@@ -112,20 +112,19 @@ Is there anything else that can be tested?
 
 ### What failure are we going to test?
 <!-- .slide: style="text-align: left;"> -->
-- What happens if the primary node in an Availbility Group cluster fails?
+<p class="fragment">- What happens if the primary node in an Availbility Group cluster fails?</p>
 
 
 ---
 
 ### Defining the experiment
 <!-- .slide: style="text-align: left;"> -->
-- Hypothesis
-    - The listener of the availbility group should remain online
-- Method
-    - Stop the SQL database engine service on the primary node
-- Rollback
-    - Restart the SQL database engine service on the primary node
-
+<p class="fragment">- Hypothesis
+    - The listener of the availbility group should remain online</p>
+<p class="fragment">- Method
+    - Stop the SQL database engine service on the primary node</p>
+<p class="fragment">- Rollback
+    - Restart the SQL database engine service on the primary node</p>
 
 ---
 
