@@ -198,5 +198,5 @@ Is there anything else that can be tested?
 </font>
 
 <p align="center">
-<img src="images/ChaosEngineeringQrCode.png" />
+<img src="images/ChaosEngineeringQrCode.png" style="float: right"/ />
 </p>
