@@ -41,10 +41,10 @@ How can Chaos Engineering be applied to SQL Server?
 
 ### What Chaos Engineering is not!
 <!-- .slide: style="text-align: left;"> -->
-<p class="fragment">- Breaking things in production!</p>
-<p class="fragment">- Staging or Production?</p>
-<p class="fragment">- Bullet Point 1</p>
-<p class="fragment">- Bullet Point 2</p>
+<ul>
+<li class="fragment">- Breaking things in production!</li>
+<li class="fragment">- Staging or Production?</li>
+<ul>
 
 ---
 
@@ -121,7 +121,9 @@ Is there anything else that can be tested?
 <!-- .slide: style="text-align: left;"> -->
 <ul>
 <li class="fragment">Hypothesis</li>
+<ul>
 <li class="fragment">The listener of the availbility group should remain online</li>
+</ul>
 <li class="fragment">Method</li>
 <li class="fragment">Stop the SQL database engine service on the primary node</li>
 <li class="fragment">Rollback</li>
