@@ -41,8 +41,8 @@ How can Chaos Engineering be applied to SQL Server?
 
 ### What Chaos Engineering is not!
 <!-- .slide: style="text-align: left;"> -->
-- Breaking things in production!<br>
-- Staging or Production?<br>
+> - Breaking things in production!<br>
+> - Staging or Production?<br>
 
 
 ---
