@@ -191,10 +191,9 @@ Is there anything else that can be tested?
 <!-- .slide: style="text-align: left;"> -->
 <font size="6">
 <a href="https://principlesofchaos.org">https://principlesofchaos.org</a><br>
-<a href="https://github.com/dbafromthecold/SqlServerChaosEngineering">https://github.com/dbafromthecold/SqlServerChaosEngineering</a><br>
 <a href="https://chaostoolkit.org">https://chaostoolkit.org</a><br>
 <a href="https://github.com/dastergon/awesome-chaos-engineering">https://github.com/dastergon/awesome-chaos-engineering</a><br>
 <a href="https://github.com/lucky-sideburn/KubeInvaders">https://github.com/lucky-sideburn/KubeInvaders</a>
 </font>
 
-<img src="images/ChaosEngineeringQrCode.png" style="float: right"/ />
+<img src="images/ChaosEngineeringQrCode.png" style="float: right"/>
