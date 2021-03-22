@@ -120,11 +120,11 @@ Is there anything else that can be tested?
 ### Defining the experiment
 <!-- .slide: style="text-align: left;"> -->
 <p class="fragment">Hypothesis<br>
-</li>The listener of the availbility group should remain online</li></p>
+<ul></li>The listener of the availbility group should remain online</li></ul></p>
 <p class="fragment">Method<br>
-</li>Stop the SQL database engine service on the primary node</li></p>
+<ul></li>Stop the SQL database engine service on the primary node</li></ul></p>
 <p class="fragment">Rollback<br>
-</li>Restart the SQL database engine service on the primary node</li></p>
+<ul></li>Restart the SQL database engine service on the primary node</li></ul></p>
 
 ---
 
