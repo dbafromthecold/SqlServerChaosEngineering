@@ -121,20 +121,17 @@ Is there anything else that can be tested?
 <!-- .slide: style="text-align: left;"> -->
 <ul>
   <li class="fragment">
-    <ul>
-      Hypothesis
+    <ul>Hypothesis
       <li class="fragment">The listener of the availbility group should remain online</li>
     </ul>
   </li>
   <li class="fragment">
-    <ul>
-      Method
+    <ul>Method
       <li class="fragment">Stop the SQL database engine service on the primary node</li>
     </ul>
   </li>
   <li class="fragment">
-    <ul>
-      Rollback
+    <ul>Rollback
       <li class="fragment">Restart the SQL database engine service on the primary node</li>
     </ul>
   </li>
