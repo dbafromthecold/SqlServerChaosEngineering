@@ -122,19 +122,19 @@ Is there anything else that can be tested?
 <ul>
   <li class="fragment">
     <ul>
-      <li>Hypothesis</li>
+      Hypothesis
       <li class="fragment">The listener of the availbility group should remain online</li>
     </ul>
   </li>
   <li class="fragment">
     <ul>
-      <li>Method</li>
+      Method
       <li class="fragment">Stop the SQL database engine service on the primary node</li>
     </ul>
   </li>
   <li class="fragment">
     <ul>
-      <li>Rollback</li>
+      Rollback
       <li class="fragment">Restart the SQL database engine service on the primary node</li>
     </ul>
   </li>
