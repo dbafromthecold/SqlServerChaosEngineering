@@ -14,7 +14,7 @@
 ---
 
 ### Session Aim
-
+<!-- .slide: style="text-align: left;"> -->
 How can Chaos Engineering be applied to SQL Server?
 
 ---
@@ -190,9 +190,9 @@ Is there anything else that can be tested?
 ## Resources
 <!-- .slide: style="text-align: left;"> -->
 <font size="6">
-<a href="https://principlesofchaos.org">principlesofchaos.org</a><br>
-<a href="https://github.com/dbafromthecold/SqlServerChaosEngineering">github.com/dbafromthecold/SqlServerChaosEngineering</a><br>
-<a href="https://chaostoolkit.org">chaostoolkit.org</a><br>
-<a href="https://github.com/dastergon/awesome-chaos-engineering">github.com/dastergon/awesome-chaos-engineering</a><br>
-<a href="https://github.com/lucky-sideburn/KubeInvaders">github.com/lucky-sideburn/KubeInvaders</a>
+<a href="https://principlesofchaos.org">https://principlesofchaos.org</a><br>
+<a href="https://github.com/dbafromthecold/SqlServerChaosEngineering">https://github.com/dbafromthecold/SqlServerChaosEngineering</a><br>
+<a href="https://chaostoolkit.org">https://chaostoolkit.org</a><br>
+<a href="https://github.com/dastergon/awesome-chaos-engineering">https://github.com/dastergon/awesome-chaos-engineering</a><br>
+<a href="https://github.com/lucky-sideburn/KubeInvaders">https://github.com/lucky-sideburn/KubeInvaders</a>
 </font>
