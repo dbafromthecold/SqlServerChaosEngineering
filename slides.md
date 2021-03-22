@@ -197,6 +197,4 @@ Is there anything else that can be tested?
 <a href="https://github.com/lucky-sideburn/KubeInvaders">https://github.com/lucky-sideburn/KubeInvaders</a>
 </font>
 
-<p align="center">
 <img src="images/ChaosEngineeringQrCode.png" style="float: right"/ />
-</p>
