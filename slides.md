@@ -1,5 +1,5 @@
 # Chaos Engineering for SQL Server
- 
+
 ---
 
 ## Andrew Pruski
@@ -28,14 +28,14 @@ How can Chaos Engineering be applied to SQL Server?
 <img src="images/chaosmonkey.png" style="float: right"/>
 
 "Chaos Monkey is responsible for randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures"<br>
-<font size="6"><a href="netflix.github.io/chaosmonkey/"netflix.github.io/chaosmonkey</a></font>
+<font size="6"><a href="netflix.github.io/chaosmonkey/">netflix.github.io/chaosmonkey</a></font>
 
 ---
 
 ### What is Chaos Engineering?
 <!-- .slide: style="text-align: left;"> -->
 "Chaos Engineering is the discipline of experimenting on a system in order to build confidence in the system’s capability to withstand turbulent conditions in production"
-<font size="6"><a href="principlesofchaos.org"principlesofchaos.org</a></font>
+<font size="6"><a href="principlesofchaos.org">principlesofchaos.org</a></font>
 
 ---
 
@@ -139,7 +139,7 @@ Is there anything else that can be tested?
 ### What is Kubernetes?
 <!-- .slide: style="text-align: left;"> -->
 "Kubernetes is a portable, extensible open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available"<br>
-<font size="6"><a href="kubernetes.io"kubernetes.io</a></font>
+<font size="6"><a href="kubernetes.io">kubernetes.io</a></font>
 
 ---
 
