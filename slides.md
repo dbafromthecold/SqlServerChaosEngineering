@@ -158,11 +158,11 @@ Is there anything else that can be tested?
 ---
 
 ## Resources
-
+<!-- .slide: style="text-align: left;"> -->
 <font size="6">
-https://principlesofchaos.org<br>
-https://github.com/dbafromthecold/SqlServerChaosEngineering<br>
-https://chaostoolkit.org/<br>
-https://github.com/dastergon/awesome-chaos-engineering<br>
-https://github.com/lucky-sideburn/KubeInvaders
+<a href=https://principlesofchaos.org><principlesofchaos.org></a><br>
+<a href=https://github.com/dbafromthecold/SqlServerChaosEngineering<github.com/dbafromthecold/SqlServerChaosEngineering></a><br>
+<a href=https://chaostoolkit.org/<chaostoolkit.org></a><br>
+<a href=https://github.com/dastergon/awesome-chaos-engineering<github.com/dastergon/awesome-chaos-engineering></a><br>
+<a href=https://github.com/lucky-sideburn/KubeInvaders<github.com/lucky-sideburn/KubeInvaders></a>
 </font>
