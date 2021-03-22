@@ -55,14 +55,24 @@ How can Chaos Engineering be applied to SQL Server?
 ### What are we going to test?
 
 <!-- .slide: style="text-align: left;"> -->
-<p class="fragment">- Infrastructure<br>
-    - Cloud, private data centre?</p>
-<p class="fragment">- Applications<br>
-    - What's hitting our SQL instances?</p>
-<p class="fragment">- Monitoring<br>
-    - How are we going to analyse the results of our experiments?</p>
-<p class="fragment">- Social<br>
-    - How do people react to systems going down?</p>
+<ul>
+<li class="fragment">Infrastructure</li>
+    <ul>
+        <li class="fragment">Cloud, private data centre?/li>
+    </ul>
+<li class="fragment">Applications</li>
+    <ul>
+        <li class="fragment">What's hitting our SQL instances?</li>
+    </ul>
+<li class="fragment">Monitoring</li>
+    <ul>
+        <li class="fragment">How are we going to analyse the results of our experiments?</li>
+    </ul>
+<li class="fragment">Social</li>
+    <ul>
+        <li class="fragment">How do people react to systems going down?</li>
+    </ul>
+</ul>
 
 ---
 
@@ -84,16 +94,28 @@ What was learnt from those previous failures?<br>
 
 ### Potential scenarios to test!
 <!-- .slide: style="text-align: left;"> -->
-<p class="fragment">- High Availability<br>
-    - How will the primary node fail?</p>
-<p class="fragment">- Backups!<br>
-    - Testing our restores</p>
-<p class="fragment">- Monitoring<br>
-    - When were we alerted?</p>
-<p class="fragment">- User error<br>
-    - Running an UPDATE statement without WHERE</p>
-<p class="fragment">- Disaster Recovery<br>
-    - When did we last test our DR strategy?</p>
+<ul>
+<li class="fragment">High Availability</li>
+    <ul>
+        <li class="fragment">How will the primary node fail?/li>
+    </ul>
+<li class="fragment">Backups!</li>
+    <ul>
+        <li class="fragment">Testing our restores</li>
+    </ul>
+<li class="fragment">Monitoring</li>
+    <ul>
+        <li class="fragment">When were we alerted?</li>
+    </ul>
+<li class="fragment">User error</li>
+    <ul>
+        <li class="fragment">Running an UPDATE statement without WHERE</li>
+    </ul>
+<li class="fragment">Disaster Recovery</li>
+    <ul>
+        <li class="fragment">When did we last test our DR strategy?</li>
+    </ul>	
+</ul>
 
 ---
 
