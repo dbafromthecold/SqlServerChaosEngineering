@@ -43,7 +43,8 @@ How can Chaos Engineering be applied to SQL Server?
 <!-- .slide: style="text-align: left;"> -->
 <p class="fragment">- Breaking things in production!</p>
 <p class="fragment">- Staging or Production?</p>
-
+<p class="fragment">- Bullet Point 1</p>
+<p class="fragment">- Bullet Point 2</p>
 
 ---
 
@@ -54,14 +55,14 @@ How can Chaos Engineering be applied to SQL Server?
 ### What are we going to test?
 
 <!-- .slide: style="text-align: left;"> -->
-- Infrastructure<br>
-    - Cloud, private data centre?
-- Applications<br>
-    - What's hitting our SQL instances?
-- Monitoring<br>
-    - How are we going to analyse the results of our experiments?
-- Social<br>
-    - How do people react to systems going down?
+<p class="fragment">- Infrastructure<br>
+    - Cloud, private data centre?</p>
+<p class="fragment">- Applications<br>
+    - What's hitting our SQL instances?</p>
+<p class="fragment">- Monitoring<br>
+    - How are we going to analyse the results of our experiments?</p>
+<p class="fragment">- Social<br>
+    - How do people react to systems going down?</p>
 
 ---
 
