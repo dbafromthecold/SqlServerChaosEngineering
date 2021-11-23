@@ -1,8 +1,3 @@
-<!-- .slide: style="text-align: left;"> -->
-<img src="images/haitiandatasat.png" style="center"/>
-
----
-
 # Chaos Engineering for SQL Server
 
 ---
