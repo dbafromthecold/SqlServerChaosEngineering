@@ -20,6 +20,7 @@ How can Chaos Engineering be applied to SQL Server?
 <p align="center">
 <img src="images/chaos.gif"/>
 </p>
+
 ---
 
 # What is Chaos Engineering?
