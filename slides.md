@@ -17,8 +17,9 @@
 <!-- .slide: style="text-align: left;"> -->
 How can Chaos Engineering be applied to SQL Server?
 
-<img src="images/chaos.gif" style="float: center"/>
-
+<p align="center">
+<img src="images/chaos.gif"/>
+</p>
 ---
 
 # What is Chaos Engineering?
