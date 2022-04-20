@@ -57,7 +57,7 @@ Set-Location C:\git\SqlServerChaosEngineering\Demos\ChaosToolkit
 # Set environment variables
 $env:SERVER = "CHAOS-SQL-01"
 $env:LISTENER_NAME = "CHAOS-SQL-03"
-
+$env:PORT = "1433"
 
 
 # run experiment
