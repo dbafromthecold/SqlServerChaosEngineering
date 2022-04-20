@@ -60,11 +60,11 @@ How can Chaos Engineering be applied to SQL Server?
 <!-- .slide: style="text-align: left;"> -->
 <i class="fab fa-slack"></i><b> Slack - Diasterpiece Theatre</b>
 
-"On going exercises to cause failure"
+- On going exercises to cause failure
 
-<i class="fab fa-google"></i>i<b> Google - DiRT</b>
+<i class="fab fa-google"></i><b> Google - DiRT</b>
 
-"Hope is not a strategy" - SRE Team motto
+- "Hope is not a strategy" - SRE Team motto
 
 ---
 
