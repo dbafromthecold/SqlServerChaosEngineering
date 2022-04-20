@@ -68,7 +68,8 @@ How can Chaos Engineering be applied to SQL Server?
 
 <span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Disaster recovery testing</font><br>
 <span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- "Hope is not a strategy" - SRE Team motto</font><br>
-<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Automated and manual tests</font>
+<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Automated and manual tests</font><br>
+<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Controlled Chaos</font>
 
 ---
 
