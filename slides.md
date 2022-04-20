@@ -55,7 +55,10 @@ How can Chaos Engineering be applied to SQL Server?
 ### Other Implementations
 <!-- .slide: style="text-align: left;"> -->
 #### Slack - Diasterpiece Theatre
+"TEST"
+
 #### Google - DiRT
+"TEST"
 
 ---
 
