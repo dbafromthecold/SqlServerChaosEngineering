@@ -60,12 +60,12 @@ How can Chaos Engineering be applied to SQL Server?
 <!-- .slide: style="text-align: left;"> -->
 <i class="fab fa-slack"></i><b> Slack - Disasterpiece Theatre</b>
 
-<font size="6">     - On going exercises to cause failure</font>
+<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- On going exercises to cause failure</font>
 
 <i class="fab fa-google"></i><b> Google - DiRT</b>
 
 <span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Disaster recovery testing</font><br>
-<font size="6">- "Hope is not a strategy" - SRE Team motto</font>
+<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- "Hope is not a strategy" - SRE Team motto</font>
 
 ---
 
