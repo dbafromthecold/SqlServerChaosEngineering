@@ -43,6 +43,10 @@ How can Chaos Engineering be applied to SQL Server?
 
 ---
 
+# Chaos Engineering Implementations
+
+---
+
 ### Netflix - Chaos Monkey
 <!-- .slide: style="text-align: left;"> -->
 <img src="images/chaosmonkey.png" style="float: right"/>
