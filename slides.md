@@ -62,7 +62,7 @@ How can Chaos Engineering be applied to SQL Server?
 "On going exercises to cause failure"
 
 #### Google - DiRT
-"Hope is not a strategy"
+"Hope is not a strategy" - SRE Team motto
 
 ---
 
@@ -188,10 +188,6 @@ Is there anything else that can be tested?
 <!-- .slide: style="text-align: left;"> -->
 "Kubernetes is a portable, extensible open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available"<br>
 <font size="6"><a href="kubernetes.io">kubernetes.io</a></font>
-
----
-
-# Demo
 
 ---
 
