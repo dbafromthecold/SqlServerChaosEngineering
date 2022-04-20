@@ -52,19 +52,13 @@ How can Chaos Engineering be applied to SQL Server?
 
 ---
 
-### Slack - Diasterpiece Theatre
+### Other Implementations
 <!-- .slide: style="text-align: left;"> -->
-<img src="images/slack.png" style="float: right"/>
-
-"An ongoing process where engineers at Slack purposely cause a part of Slack to fail"
-
----
-
-### Google - DiRT
-<!-- .slide: style="text-align: left;"> -->
-<img src="images/google-logo.png" style="float: right"/>
+Slack - Diasterpiece Theatre
 <br>
-Diaster Recovery Testing<br>
+"An ongoing process where engineers at Slack purposely cause a part of Slack to fail"
+<br>
+Google - DiRT
 <br>
 "Hope is not a strategy" 
 Google SRE Team motto"
