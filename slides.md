@@ -60,14 +60,14 @@ How can Chaos Engineering be applied to SQL Server?
 <!-- .slide: style="text-align: left;"> -->
 <i class="fab fa-slack"></i><b> Slack - Disasterpiece Theatre</b>
 
-<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Planned failure exercises</font>
-<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Group of engineers working together</font>
+<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Planned failure exercises</font><br>
+<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Group of engineers working together</font><br>
 <span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Run in development then production to build confidence</font>
 
 <i class="fab fa-google"></i><b> Google - DiRT</b>
 
 <span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Disaster recovery testing</font><br>
-<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- "Hope is not a strategy" - SRE Team motto</font>
+<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- "Hope is not a strategy" - SRE Team motto</font><br>
 <span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Automated and manual tests</font>
 
 ---
