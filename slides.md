@@ -52,6 +52,21 @@ How can Chaos Engineering be applied to SQL Server?
 
 ---
 
+### Netflix - Chaos Monkey
+<!-- .slide: style="text-align: left;"> -->
+<img src="images/chaosmonkey.png" style="float: right"/>
+
+"Chaos Monkey is responsible for randomly terminating instances in production to ensure that engineers implement their services to be resilient to instance failures"<br>
+<font size="6"><a href="netflix.github.io/chaosmonkey/">netflix.github.io/chaosmonkey</a></font>
+
+---
+
+### Slack - Diasterpiece Theatre
+<!-- .slide: style="text-align: left;"> -->
+<img src="images/slack.png" style="float: right"/>
+
+"An ongoing process where engineers at Slack purposely cause a part of Slack to fail"
+
 # Getting Started
 
 ---
