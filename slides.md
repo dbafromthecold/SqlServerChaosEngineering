@@ -62,10 +62,10 @@ How can Chaos Engineering be applied to SQL Server?
 
 ### Google - DiRT
 <!-- .slide: style="text-align: left;"> -->
-<img src="images/google.jpg" style="float: right"/>
+<img src="images/google.png" style="float: right"/>
 
-"Diaster Recovery Testing
-Hope is not a strategy"
+Diaster Recovery Testing<br>
+"Hope is not a strategy - Google SRE Team motto"
 
 ---
 
