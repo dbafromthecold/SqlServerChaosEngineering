@@ -1,3 +1,17 @@
+###################################################################################################
+###################################################################################################
+#
+# https://github.com/dbafromthecold/SqlServerChaosEngineering
+# 
+# Chaos Engineering for SQL Server - Availability Group Experiment
+#  
+# Andrew Pruski
+# @dbafromthecold
+# www.dbafromthecold.com
+# 
+###################################################################################################
+###################################################################################################
+
 
 
 # Navigate to script location
@@ -6,7 +20,7 @@ Set-Location C:\git\SqlServerChaosEngineering\Demos\AvailabilityGroup
 
 
 # Run chaos engineering experiment
-.\AvailabilityGroupExperiment.ps1 -Server AP-SQLAG-01 -AvailabilityGroup AG1
+.\AvailabilityGroupExperiment.ps1 -Server CHAOS-SQL-01 -AvailabilityGroup AGDR
 
 
 
@@ -16,7 +30,7 @@ Set-Location C:\git\SqlServerChaosEngineering\Demos\AvailabilityGroup
 
 
 # Run experiment one more time
-.\AvailabilityGroupExperiment.ps1 -Server AP-SQLAG-02 -AvailabilityGroup AG1
+.\AvailabilityGroupExperiment.ps1 -Server CHAOS-SQL-02 -AvailabilityGroup AGDR
 
 
 
@@ -26,7 +40,7 @@ Set-Location C:\git\SqlServerChaosEngineering\Demos\AvailabilityGroup
 
 
 # Retry experiment
-.\AvailabilityGroupExperiment.ps1 -Server AP-SQLAG-02 -AvailabilityGroup AG1
+.\AvailabilityGroupExperiment.ps1 -Server CHAOS-SQL-02 -AvailabilityGroup AGDR
 
 
 
@@ -41,8 +55,8 @@ Set-Location C:\git\SqlServerChaosEngineering\Demos\ChaosToolkit
 
 
 # Set environment variables
-$env:SERVER = "AP-SQLAG-01"
-$env:LISTENER_NAME = "AP-SQLAG-03"
+$env:SERVER = "CHAOS-SQL-01"
+$env:LISTENER_NAME = "CHAOS-SQL-03"
 
 
 
