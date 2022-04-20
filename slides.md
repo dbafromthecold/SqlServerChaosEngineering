@@ -63,6 +63,7 @@ How can Chaos Engineering be applied to SQL Server?
 <font size="6">- On going exercises to cause failure</font>
 
 <i class="fab fa-google"></i><b> Google - DiRT</b>
+
 <font size="6">- Disaster recovery testing
 - "Hope is not a strategy" - SRE Team motto</font>
 
