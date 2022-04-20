@@ -62,7 +62,8 @@ How can Chaos Engineering be applied to SQL Server?
 
 "On going exercises to cause failure"
 
-<i class="fab fa-google"></i><b> Google - DiRT"</b>
+<i class="fab fa-google"></i>i<b> Google - DiRT</b>
+
 "Hope is not a strategy" - SRE Team motto
 
 ---
