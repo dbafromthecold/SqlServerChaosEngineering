@@ -58,7 +58,7 @@ How can Chaos Engineering be applied to SQL Server?
 
 ### Other Implementations
 <!-- .slide: style="text-align: left;"> -->
-<i class="fab fa-slack"></i><b> Slack - Diasterpiece Theatre</b>
+<i class="fab fa-slack"></i><b> Slack - Disasterpiece Theatre</b>
 
 <font size="6">   - On going exercises to cause failure</font>
 
