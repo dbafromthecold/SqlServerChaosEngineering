@@ -77,7 +77,7 @@ An overview of Chaos Engineering and how it can be applied
 
 ---
 
-### What are we going to test?
+### Environment Analysis
 
 <!-- .slide: style="text-align: left;"> -->
 <ul>
