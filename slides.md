@@ -15,7 +15,7 @@
 
 ### Session Aim
 <!-- .slide: style="text-align: left;"> -->
-How can Chaos Engineering be applied to SQL Server?
+An overview of Chaos Engineering and how it can be applied
 
 <p align="center">
 <img src="images/chaos.gif"/>
