@@ -40,6 +40,8 @@ Write-Host ""
 Write-Host ""
 Write-Host "Testing hypothesis - Is the listener online?"
 
+Start-Sleep -Seconds 1
+
 $Connected = Test-NetConnection -ComputerName $Listener.dns_name -Port $Listener.port
 
 Invoke-Pester -Script @{Path = "C:\git\SqlServerChaosEngineering\Demos\AvailabilityGroup\PesterTest.ps1"; `
