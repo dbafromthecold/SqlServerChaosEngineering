@@ -1,4 +1,4 @@
-# Hands on Chaos Engineering
+# Chaos Engineering for SQL Server
 
 ---
 
