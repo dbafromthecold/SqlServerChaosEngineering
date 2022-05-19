@@ -40,7 +40,7 @@ Write-Host ""
 Write-Host ""
 Write-Host "Testing hypothesis - Is the listener online?"
 
-Start-Sleep -Seconds 1
+Start-Sleep -Seconds 5
 
 $Connected = Test-NetConnection -ComputerName $Listener.dns_name -Port $Listener.port
 
