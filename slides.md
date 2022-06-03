@@ -2,12 +2,6 @@
 
 ---
 
-<p align="center">
-<img src="images/stockholm_sponsors.png"
-</p>
-
----
-
 ## Andrew Pruski
 
 ### SQL Server DBA, Microsoft Data Platform MVP, & Certified Kubernetes Administrator
