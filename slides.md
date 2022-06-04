@@ -2,6 +2,12 @@
 
 ---
 
+<p align="center">
+<img src="images/datasat_croatia_sponsors.png"/>
+</p>
+
+---
+
 ## Andrew Pruski
 
 ### SQL Server DBA, Microsoft Data Platform MVP, & Certified Kubernetes Administrator
