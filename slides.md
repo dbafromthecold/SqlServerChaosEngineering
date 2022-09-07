@@ -4,10 +4,7 @@
 
 ## Andrew Pruski
 
-### Field Solutions Architect at Pure Storage
-### Microsoft Data Platform MVP
-### Certified Kubernetes Administrator
-<br>
+### Field Solutions Architect, Microsoft Data Platform MVP, & Certified Kubernetes Administrator
 <!-- .slide: style="text-align: left;"> -->
 <i class="fab fa-twitter"></i><a href="https://twitter.com/dbafromthecold">  @dbafromthecold</a><br>
 <i class="fas fa-envelope"></i>  dbafromthecold@gmail.com<br>
