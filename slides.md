@@ -227,7 +227,7 @@ Is there anything else that can be tested?
 ---
 
 ## Feedback
-
+<!-- .slide: style="text-align: left;"> -->
 <img src="images/sqlbits_feedback.png" style="float: center"/>
 <br>
-Link - https://sqlb.it/?9434
+Link - <a href="https://sqlb.it/?9434">https://sqlb.it/?9434</a>
