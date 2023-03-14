@@ -224,4 +224,10 @@ Is there anything else that can be tested?
 <a href="https://github.com/lucky-sideburn/KubeInvaders">https://github.com/lucky-sideburn/KubeInvaders</a>
 </font>
 
+---
 
+## Feedback
+
+<img src="images/sqlbits_feedback.png" style="float: center"/>
+<br>
+Link - https://sqlb.it/?9434
