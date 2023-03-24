@@ -2,6 +2,15 @@
 
 ---
 
+### Sponsors
+<!-- .slide: style="text-align: left;"> -->
+
+<p align="center">
+<img src="images/denmark_sponsors.png"/>
+</p>
+
+---
+
 ## Andrew Pruski
 
 <img src="images/apruski.jpg" style="float: right"/>
@@ -223,13 +232,3 @@ Is there anything else that can be tested?
 <a href="https://github.com/dastergon/awesome-chaos-engineering">https://github.com/dastergon/awesome-chaos-engineering</a><br>
 <a href="https://github.com/lucky-sideburn/KubeInvaders">https://github.com/lucky-sideburn/KubeInvaders</a>
 </font>
-
----
-
-## Feedback
-<!-- .slide: style="text-align: left;"> -->
-<p align="center">
-<img src="images/sqlbits_feedback.png"/>
-</p>
-<br>
-<a href="https://sqlb.it/?9434">https://sqlb.it/?9434</a>
