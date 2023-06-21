@@ -158,6 +158,8 @@ Is there anything else that can be tested?
 
 <img src="images/KubeInvaders_75.png" style="float: center"/>
 
+https://github.com/lucky-sideburn/KubeInvaders
+
 ---
 
 # Demo
@@ -166,11 +168,8 @@ Is there anything else that can be tested?
 
 ## Resources
 <!-- .slide: style="text-align: left;"> -->
-<img src="images/ChaosEngineeringQrCode.png" style="float: right"/>
+https://github.com/dbafromthecold/SqlServerChaosEngineering
 
-<font size="6">
-<a href="https://principlesofchaos.org">https://principlesofchaos.org</a><br>
-<a href="https://chaostoolkit.org">https://chaostoolkit.org</a><br>
-<a href="https://github.com/dastergon/awesome-chaos-engineering">https://github.com/dastergon/awesome-chaos-engineering</a><br>
-<a href="https://github.com/lucky-sideburn/KubeInvaders">https://github.com/lucky-sideburn/KubeInvaders</a>
-</font>
+<p align="center">
+  <img src="images/ChaosEngineeringQrCode.png" />
+</p>
