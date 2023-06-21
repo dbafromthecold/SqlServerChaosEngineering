@@ -7,8 +7,7 @@
 <img src="images/apruski.jpg" style="float: right"/>
 
 ### Field Solutions Architect
-### Microsoft Data Platform MVP 
-### Certified Kubernetes Administrator
+### Microsoft Data Platform MVP
 
 <!-- .slide: style="text-align: left;"> -->
 <i class="fab fa-twitter"></i><a href="https://twitter.com/dbafromthecold">  @dbafromthecold</a><br>
@@ -175,13 +174,3 @@ Is there anything else that can be tested?
 <a href="https://github.com/dastergon/awesome-chaos-engineering">https://github.com/dastergon/awesome-chaos-engineering</a><br>
 <a href="https://github.com/lucky-sideburn/KubeInvaders">https://github.com/lucky-sideburn/KubeInvaders</a>
 </font>
-
----
-
-## Feedback
-<!-- .slide: style="text-align: left;"> -->
-<p align="center">
-<img src="images/sqlbits_feedback.png"/>
-</p>
-<br>
-<a href="https://sqlb.it/?9434">https://sqlb.it/?9434</a>
