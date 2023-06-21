@@ -6,7 +6,6 @@ https://dbafromthecold.github.io/SqlServerChaosEngineering
 
 
 Resources: -
-
 https://principlesofchaos.org</br>
 https://chaostoolkit.org</br>
 https://github.com/dastergon/awesome-chaos-engineering</br>
