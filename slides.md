@@ -8,7 +8,8 @@
 
 ### Field Solutions Architect
 ### Microsoft Data Platform MVP 
-### Certified Kubernetes Administrator
+### Docker Captain
+### VMware vLeader
 
 <!-- .slide: style="text-align: left;"> -->
 <i class="fab fa-twitter"></i><a href="https://twitter.com/dbafromthecold">  @dbafromthecold</a><br>
