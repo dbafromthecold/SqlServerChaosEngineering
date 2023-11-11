@@ -7,9 +7,9 @@
 <img src="images/apruski.jpg" style="float: right"/>
 
 ### Field Solutions Architect
-### Microsoft Data Platform MVP 
-### Docker Captain
-### VMware vLeader
+#### Microsoft Data Platform MVP 
+#### Docker Captain
+#### VMware vLeader
 
 <!-- .slide: style="text-align: left;"> -->
 <i class="fab fa-twitter"></i><a href="https://twitter.com/dbafromthecold">  @dbafromthecold</a><br>
