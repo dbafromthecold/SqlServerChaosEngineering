@@ -7,7 +7,8 @@
 <img src="images/apruski.jpg" style="float: right"/>
 
 ### Field Solutions Architect
-### Microsoft Data Platform MVP
+### Microsoft Data Platform MVP 
+### Certified Kubernetes Administrator
 
 <!-- .slide: style="text-align: left;"> -->
 <i class="fab fa-twitter"></i><a href="https://twitter.com/dbafromthecold">  @dbafromthecold</a><br>
@@ -60,7 +61,48 @@ An overview of Chaos Engineering and how it can be applied
 
 ---
 
+### Other Implementations
+<!-- .slide: style="text-align: left;"> -->
+<i class="fab fa-slack"></i><b> Slack - Disasterpiece Theatre</b>
+
+<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Planned failure exercises</font><br>
+<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Group of engineers working together</font><br>
+<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Run in development then production to build confidence</font>
+
+<i class="fab fa-google"></i><b> Google - DiRT</b>
+
+<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Disaster recovery testing</font><br>
+<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- "Hope is not a strategy" - SRE Team motto</font><br>
+<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Automated and manual tests</font><br>
+<span style="display: inline-block; width: 2ch;">&#9;</span><font size="6">- Controlled Chaos</font>
+
+---
+
 # Getting Started
+
+---
+
+### Environment Analysis
+
+<!-- .slide: style="text-align: left;"> -->
+<ul>
+<li class="fragment">Infrastructure</li>
+    <ul>
+        <li class="fragment">Cloud, private data centre?</li>
+    </ul>
+<li class="fragment">Applications</li>
+    <ul>
+        <li class="fragment">What's hitting our SQL instances?</li>
+    </ul>
+<li class="fragment">Monitoring</li>
+    <ul>
+        <li class="fragment">How are we going to analyse the results of our experiments?</li>
+    </ul>
+<li class="fragment">Social</li>
+    <ul>
+        <li class="fragment">How do people react to systems going down?</li>
+    </ul>
+</ul>
 
 ---
 
@@ -154,11 +196,16 @@ Is there anything else that can be tested?
 
 ---
 
+### What is Kubernetes?
+<!-- .slide: style="text-align: left;"> -->
+"Kubernetes is a portable, extensible open-source platform for managing containerized workloads and services, that facilitates both declarative configuration and automation. It has a large, rapidly growing ecosystem. Kubernetes services, support, and tools are widely available"<br>
+<font size="6"><a href="kubernetes.io">kubernetes.io</a></font>
+
+---
+
 ### KubeInvaders
 
 <img src="images/KubeInvaders_75.png" style="float: center"/>
-
-https://github.com/lucky-sideburn/KubeInvaders
 
 ---
 
@@ -168,8 +215,21 @@ https://github.com/lucky-sideburn/KubeInvaders
 
 ## Resources
 <!-- .slide: style="text-align: left;"> -->
-https://github.com/dbafromthecold/SqlServerChaosEngineering
+<img src="images/ChaosEngineeringQrCode.png" style="float: right"/>
 
+<font size="6">
+<a href="https://principlesofchaos.org">https://principlesofchaos.org</a><br>
+<a href="https://chaostoolkit.org">https://chaostoolkit.org</a><br>
+<a href="https://github.com/dastergon/awesome-chaos-engineering">https://github.com/dastergon/awesome-chaos-engineering</a><br>
+<a href="https://github.com/lucky-sideburn/KubeInvaders">https://github.com/lucky-sideburn/KubeInvaders</a>
+</font>
+
+---
+
+## Feedback
+<!-- .slide: style="text-align: left;"> -->
 <p align="center">
-  <img src="images/ChaosEngineeringQrCode.png" />
+<img src="images/sqlbits_feedback.png"/>
 </p>
+<br>
+<a href="https://sqlb.it/?9434">https://sqlb.it/?9434</a>
