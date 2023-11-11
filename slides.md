@@ -2,6 +2,12 @@
 
 ---
 
+<p align="center">
+<img src="images/sqlsatsponsors.png"/>
+</p>
+
+---
+
 ## Andrew Pruski
 
 <img src="images/apruski.jpg" style="float: right"/>
