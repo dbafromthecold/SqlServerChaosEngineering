@@ -44,7 +44,10 @@ An overview of Chaos Engineering and how it can be applied
 <!-- .slide: style="text-align: left;"> -->
 <ul>
 <li class="fragment">Breaking things in production!</li>
-<li class="fragment">Staging or Production?</li>
+<li class="fragment">Randomly causing outages</li>
+<li class="fragment">A one-time test</li>
+<li class="fragment">Specific tooling</li>
+<li class="fragment">Only run in production</li>
 <ul>
 
 ---
@@ -118,8 +121,9 @@ What was learnt from those previous failures?<br>
 ### Likelihood-Impact Map
 
 <p align="center">
-<img src="images/likelihoodImpactMap.png" />
+<img src="images/likelihood_impact_matrix.png" style="float: center"/>
 </p>
+
 
 ---
 
@@ -204,9 +208,7 @@ Is there anything else that can be tested?
 
 ---
 
-### KubeInvaders
-
-<img src="images/KubeInvaders_75.png" style="float: center"/>
+<img src="images/kubeinvaders.gif" style="float: center"/>
 
 ---
 
@@ -219,8 +221,5 @@ Is there anything else that can be tested?
 <img src="images/ChaosEngineeringQrCode.png" style="float: right"/>
 
 <font size="6">
-<a href="https://principlesofchaos.org">https://principlesofchaos.org</a><br>
-<a href="https://chaostoolkit.org">https://chaostoolkit.org</a><br>
-<a href="https://github.com/dastergon/awesome-chaos-engineering">https://github.com/dastergon/awesome-chaos-engineering</a><br>
-<a href="https://github.com/lucky-sideburn/KubeInvaders">https://github.com/lucky-sideburn/KubeInvaders</a>
+<a href="https://github.com/dbafromthecold/SqlServerChaosEngineering">https://github.com/dbafromthecold/SqlServerChaosEngineering</a><br>
 </font>
