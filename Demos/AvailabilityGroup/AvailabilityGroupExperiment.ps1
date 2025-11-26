@@ -34,7 +34,7 @@ Write-Host "Stopping service on primary node..."
 
 Get-Service -ComputerName $Server -Name MSSQLSERVER | Stop-Service -Force
 
-Write-Host ""
+Write-Host "Done!"
 Write-Host ""
 Write-Host ""
 Write-Host ""
