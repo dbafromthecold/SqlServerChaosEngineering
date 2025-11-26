@@ -218,7 +218,7 @@ Is there anything else that can be tested?
 
 ## Resources
 <!-- .slide: style="text-align: left;"> -->
-<img src="images/ChaosEngineeringQrCode.png" style="float: right"/>
+<img src="images/ChaosEngineeringQrCode.png">
 
 <font size="6">
 <a href="https://github.com/dbafromthecold/SqlServerChaosEngineering">https://github.com/dbafromthecold/SqlServerChaosEngineering</a><br>
