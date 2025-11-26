@@ -4,7 +4,7 @@ $SqlGetListener = "SELECT dns_name, port
 FROM sys.availability_group_listeners AS l
 INNER JOIN sys.availability_groups AS a ON l.group_id = a.group_id
 WHERE a.name = '$AvailabilityGroup'"
-$Listener = Invoke-SqlCmd -ServerInstance $Server -Database master -Query $SqlGetListener
+$Listener = Invoke-SqlCmd -ServerInstance $Server -Database master -Query $SqlGetListener -TrustServerCertificate -MultiSubnetFailover
 
 Write-Host "Availabilty Group Chaos Experiment"
 
@@ -34,7 +34,7 @@ Write-Host "Stopping service on primary node..."
 
 Get-Service -ComputerName $Server -Name MSSQLSERVER | Stop-Service -Force
 
-Write-Host ""
+Write-Host "Done!"
 Write-Host ""
 Write-Host ""
 Write-Host ""

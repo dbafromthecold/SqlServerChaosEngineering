@@ -20,7 +20,7 @@ Set-Location C:\git\SqlServerChaosEngineering\Demos\AvailabilityGroup
 
 
 # Run chaos engineering experiment
-.\AvailabilityGroupExperiment.ps1 -Server CHAOS-SQL-01 -AvailabilityGroup AGDR
+.\AvailabilityGroupExperiment.ps1 -Server AP-SQL2025-01 -AvailabilityGroup AG1
 
 
 
@@ -30,7 +30,7 @@ Set-Location C:\git\SqlServerChaosEngineering\Demos\AvailabilityGroup
 
 
 # Run experiment one more time
-.\AvailabilityGroupExperiment.ps1 -Server CHAOS-SQL-02 -AvailabilityGroup AGDR
+.\AvailabilityGroupExperiment.ps1 -Server AP-SQL2025-02 -AvailabilityGroup AG1
 
 
 
@@ -40,7 +40,7 @@ Set-Location C:\git\SqlServerChaosEngineering\Demos\AvailabilityGroup
 
 
 # Retry experiment
-.\AvailabilityGroupExperiment.ps1 -Server CHAOS-SQL-02 -AvailabilityGroup AGDR
+.\AvailabilityGroupExperiment.ps1 -Server AP-SQL2025-02 -AvailabilityGroup AGDR
 
 
 
