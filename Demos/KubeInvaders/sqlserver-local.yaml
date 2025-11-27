@@ -1,7 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: null
   labels:
     app: sqlserver
   name: sqlserver
@@ -13,12 +12,11 @@ spec:
   strategy: {}
   template:
     metadata:
-      creationTimestamp: null
       labels:
         app: sqlserver
     spec:
       containers:
-      - image: mcr.microsoft.com/mssql/server:2019-CU5-ubuntu-18.04
+      - image: mcr.microsoft.com/mssql/server:2025-RTM-ubuntu-22.04
         name: server
         resources: {}
         env:
@@ -31,7 +29,6 @@ status: {}
 apiVersion: v1
 kind: Service
 metadata:
-  creationTimestamp: null
   labels:
     app: sqlserver       
   name: sqlserver        
