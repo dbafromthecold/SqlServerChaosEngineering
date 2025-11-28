@@ -2,6 +2,14 @@
 
 ---
 
+<img src="images/data_sat_madrid_sponsors.png">
+
+---
+
+<img src="images/data_sat_madrid_raffle.png">
+
+---
+
 ## Andrew Pruski
 
 <img src="images/apruski.jpg" style="float: right"/>
